@@ -186,6 +186,8 @@ img{
 
 .service{
 	padding: 5% 16%;
+	border-bottom: 1px solid #6C757D;
+
 }
 
 h2{
@@ -330,6 +332,7 @@ h3{
 
 .blog{
 	padding: 5% 0;
+	border-bottom: 1px solid #6C757D;
 }
 
 .blog .blog-title{
@@ -442,4 +445,383 @@ h3{
     display: none; /* 隱藏除了第一個以外的 `li` */
 	}
 
+}
+
+.cases{
+	padding: 5% 16%;
+	border-bottom: 1px solid #6C757D;
+}
+
+.cases .cases-title{
+	display: flex;
+	margin-bottom: 24px;
+}
+
+.cases .cases-intro{
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.cases .cases-intro .cases-Alyse{
+	width: 60%;
+	height: auto;
+	padding: 24px;
+	background: #EDEDED;
+}
+
+.cases .cases-intro .cases-Alyse img{
+	width: 100%;
+	height: auto;
+}
+
+.cases .cases-intro .cases-content{
+	max-width: 526px;
+	height: auto;
+	padding: 80px 40px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 4.5%;
+	right: 7%;
+}
+
+.cases .cases-intro .cases-btn{
+	width: 38%;
+	height: auto;
+	padding: 60px 40px;
+	background: #f5f5f5;
+	position: absolute;
+	top: 45%;
+	right: 0%;
+}
+
+.cases .cases-intro p{
+	font-family: "Noto Sans TC", sans-serif;
+	line-height: 1.5; 
+	color: #000000;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 24px;
+}
+
+.cases .cases-intro .line{
+	width: 30px;
+	height: 2.5px;
+	background: #0027D5;
+	border-radius: 5px;
+	margin: 18.75px 5px;
+}
+
+.cases .cases-intro .cases-btn a{
+  display: inline-block;	
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;	
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0027D5;	
+  text-decoration: none;
+  padding: 8px 16px;
+  background: #FFFFFF;
+  border: 1px solid #0027D5; 
+  border-radius: 20px;
+  margin-top: 24px;
+}
+
+.cases .cases-list{
+	background: #f5f5f5;
+	padding: 24px;
+}
+
+.cases .cases-list ul{
+	display: flex;
+	gap: 24px;
+}
+
+.cases .cases-list ul li{
+	width: 25%
+}
+
+.cases .cases-list ul li img{
+	margin-bottom: 16px;
+}
+
+.cases .cases-list ul li h4{
+	font-family: "Noto Sans TC", sans-serif;
+	line-height: 1.5; 
+	color: #000000;
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+
+.cases .cases-list ul ul{
+	display: block;
+	list-style-image: url('https://raw.githubusercontent.com/li21593113/HTMLCSSWIN/refs/heads/main/check-square.png');
+	font-family: "Noto Sans TC", sans-serif;
+	line-height: 2; 
+	color: #4b4b4b;
+	font-weight: 500;
+	font-size: 16px;
+	padding-left: 24px;
+	margin-bottom: 16px;
+}
+
+.cases .cases-list ul ul li{
+	width: 100%
+}
+
+.cases .cases-list ul li .line{
+	width: 100%;
+	height: 1px;
+	background: #4b4b4b;
+	margin-bottom: 16px;
+}
+
+.cases .cases-list ul li a{
+  display: inline-block;	
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;	
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4B4B4B;	
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #000000; 
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+	.cases{
+		padding: 64px 15px;
+	}
+	.cases .cases-title{
+		flex-direction: column;
+	}
+	.cases .cases-intro{
+		flex-direction: column;
+		position: static; /* 取消絕對定位 */
+
+	}
+	.cases .cases-intro .cases-Alyse{
+		width: 100%;
+		height: 500px;
+		padding-bottom: 0;
+	}
+	.cases .cases-intro .cases-Alyse img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.cases .cases-intro .cases-content{
+		width: 100%;
+		height: auto;
+		padding: 40px 24px;
+		position: static; /* 取消絕對定位 */
+	}
+	.cases .cases-intro .cases-btn{
+		width: 100%;
+		height: auto;
+		padding: 40px 24px;
+		position: static; /* 取消絕對定位 */
+	}
+	.cases .cases-list ul{
+		flex-direction: column;
+	}
+	.cases .cases-list ul li{
+	width: 100%
+	}
+}
+
+.subcribe{
+	display:flex;
+	border-bottom: 1px solid #6C757D;
+}
+
+.subcribe .subcribe-left-Alyse{
+	width: 50%;
+	height: auto;
+}
+
+.subcribe .subcribe-right{
+	width: 50%;
+	height: 834px;
+	background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true');
+    background-size: cover; /* 讓圖片充滿整個容器 */
+    background-position: center; /* 讓圖片居中 */
+    background-repeat: no-repeat; /* 防止圖片重複 */
+	padding: 172px 80px;
+}
+
+.subcribe .subcribe-right .subcribe-right-form{
+	width: 100%;
+	height: auto;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+	padding: 80px;
+}
+
+.subcribe .subcribe-right .subcribe-right-form h2{
+	margin-bottom: 16px;
+}
+
+.subcribe .subcribe-right .subcribe-right-form p{
+	font-family: "Noto Sans TC", sans-serif;
+  	font-weight: 500;	
+  	font-size: 20px;
+  	line-height: 1.5;
+	margin-bottom: 24px;
+}
+
+/* 設定表單樣式 */
+.subcribe .subcribe-right .subcribe-right-form form {
+    display: block;
+}
+
+/* 設定輸入框 */
+.subcribe .subcribe-right .subcribe-right-form input {
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 20px;
+	line-height: 1.5;
+	font-weight: 500;
+    font-family: "Noto Sans TC", sans-serif;
+	color: #4B4B4B;
+    background-color: #F1f1f1; /* 輸入框底色 */
+	border: 0; 
+	margin-bottom: 8px;
+}
+
+/* 設定輸入框的焦點效果 */
+.subcribe .subcribe-right .subcribe-right-form input:focus {
+    background-color: #FFFFFF;
+    border-color: #0044CC;
+    box-shadow: 0px 0px 8px rgba(0, 39, 213, 0.5);
+}
+
+/* 設定按鈕 */
+.subcribe .subcribe-right .subcribe-right-form button {
+	display: inline-block;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 700;
+    color: #0027D5;
+    border: 1px solid #0027D5;
+	background-color: #FFFFFF;
+    border-radius: 20px;
+	margin-top: 16px;
+}
+
+/* 按鈕的懸停效果 */
+.subcribe .subcribe-right .subcribe-right-form button:hover {
+	color: #FFFFFF;
+    background-color: #0027D5;
+}
+
+@media (max-width: 768px) {
+	.subcribe{
+		flex-direction: column;
+	}
+	.subcribe .subcribe-left-Alyse{
+		width: 100%;
+		height: 375px;
+	}
+	.subcribe .subcribe-left-Alyse img{
+		width: 100%;
+		height: auto;
+	}
+	.subcribe .subcribe-right{
+		width: 100%;
+		height: auto;
+		padding: 15px;
+	}
+	.subcribe .subcribe-right .subcribe-right-form{
+		padding: 40px 24px;
+	}
+}
+
+.contact{
+	padding: 5% 16%;
+	border-bottom: 1px solid #6C757D;
+}
+
+.contact h2{
+	margin-bottom: 8px;
+}
+
+.contact .contact-info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #000000;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.contact .contact-info .contact-info-left{
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.contact .contact-info .contact-info-left .contact-info-left-email{
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.contact .contact-info .contact-info-left .email{
+	font-family: "Noto Sans TC", sans-serif;
+	line-height: 1.5; 
+	color: #000000;
+	font-weight: 500;
+	font-size: 32px;
+	text-decoration: underline;
+}
+
+.contact .contact-info .contact-info-left a, p{
+	font-family: "Noto Sans TC", sans-serif;
+	line-height: 1.5; 
+	color: #000000;
+	font-weight: 500;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+	.contact{
+		padding: 64px 15px;
+	}
+	.contact .contact-info{
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 8px;
+	}
+	.contact .contact-info .contact-info-left{
+		gap: 8px;
+	}
+	.contact .contact-info .contact-info-left .contact-info-left-email{
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 8px;
+	}
+	.contact .contact-info .contact-info-left .email{
+	font-size: 24px;
+	}
+	.contact .contact-info .contact-info-left a, p{
+	font-size: 24px;
+	}
+}
+
+.footer{
+	padding: 24px 0;
+}
+
+.footer p{
+	text-align: center;
+	font-family: "Noto Sans TC", sans-serif;
+	line-height: 1.5; 
+	color: #000000;
+	font-weight: 500;
+	font-size: 16px;
 }
